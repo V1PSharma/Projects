@@ -1,2 +1,2 @@
-# Python
+# Projects
 All Basic Python Works
