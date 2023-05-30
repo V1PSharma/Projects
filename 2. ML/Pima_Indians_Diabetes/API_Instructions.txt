@@ -1,0 +1,20 @@
+Run the .py file to start the server
+Select Model, If server restarts then reselect Model
+
+
+Use any API Platform, Put Server Info from python terminal
+Input Format: 
+	Jason Format
+	[
+    	{
+        	"Pregnancies": 0,
+        	"Glucose": 120,
+        	"BloodPressure": 100,
+        	"SkinThickness": 25,
+        	"Insulin": 200,
+        	"BMI": 32,
+        	"DiabetesPedigreeFunction": 1,
+        	"Age": 25
+    	}
+	]
+and Fetch Results....
