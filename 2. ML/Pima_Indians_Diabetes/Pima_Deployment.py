@@ -45,28 +45,28 @@ if __name__ == '__main__':
         if i in str(list(range(1,8))): break
     
     
-    col_names = joblib.load("column_names.pkl")
+    col_names = joblib.load("./models/column_names.pkl")
     
     if i=='1':
-        model = joblib.load("Final Adaptive Boosting Classifier.pkl") 
+        model = joblib.load("./models/Final Adaptive Boosting Classifier.pkl") 
          
     if i=='2':
-        model = joblib.load("Final Descision Tree Classifier.pkl")
+        model = joblib.load("./models/Final Descision Tree Classifier.pkl")
         
     if i=='3':
-        model = joblib.load("Final Gradient Boosting Classifier.pkl")
+        model = joblib.load("./models/Final Gradient Boosting Classifier.pkl")
         
     if i=='4':
-        model = joblib.load("Final Logistics Regression Model.pkl")
+        model = joblib.load("./models/Final Logistics Regression Model.pkl")
         
     if i=='5':
-        model = joblib.load("Final Logistics Regression Model CV.pkl")
+        model = joblib.load("./models/Final Logistics Regression Model CV.pkl")
         
     if i=='6':
-        model = joblib.load("Final Random Forrest Classifier.pkl")
+        model = joblib.load("./models/Final Random Forrest Classifier.pkl")
         
     if i=='7':
-        model = joblib.load("Final Support Vector Machine.pkl")
+        model = joblib.load("./models/Final Support Vector Machine.pkl")
         
     print("MODEL LOADED")
 
